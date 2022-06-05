@@ -202,11 +202,11 @@ body {
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .experiences__company-project {
-  margin-left: 15px;
+  /* margin-left: 15px; */
   margin-bottom: 25px;
 }
 
