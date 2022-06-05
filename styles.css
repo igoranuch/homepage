@@ -96,6 +96,11 @@ body {
   gap: 5rem;
 }
 
+.skills_list {
+  color: var(--secondary-text-color);
+  padding-left: 20px;
+}
+
 .contact-info__block--center {
   justify-content: center;
   margin-bottom: 30px;
