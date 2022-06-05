@@ -22,6 +22,11 @@ body {
   max-width: 900px;
 }
 
+.ft {
+  display: flex;
+  flex-direction: column;
+}
+
 .fh {
   display: flex;
   flex-direction: row;
@@ -86,12 +91,19 @@ body {
 
 .contact-info__block {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.skills_list {
+  color: var(--secondary-text-color);
+  padding-left: 20px;
 }
 
 .contact-info__block--center {
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .contact-info__item {
@@ -123,16 +135,17 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
 
-.intro {
-  display: flex;
-  justify-content: start;
+.intro__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .intro__icon-wrapper {
@@ -189,11 +202,11 @@ body {
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .experiences__company-project {
-  margin-left: 15px;
+  /* margin-left: 15px; */
   margin-bottom: 25px;
 }
 
